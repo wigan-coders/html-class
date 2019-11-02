@@ -65,7 +65,7 @@ img {
     margin: 0 !important;
 } */
 footer {
-    background-color: black;
+    background-color: #642a84;
     color: white;
     height: 100%;
     max-height: 60px;
@@ -84,14 +84,14 @@ footer h3 {
 }
 
 .signup-div {
-  background: brown;
+  background: #CECFD4;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-direction: row;
   padding: 10px;
   border-radius: 5px;
-  color: #fff;
+  color: #000;
 }
 
 @media screen and (max-width: 650px) {
