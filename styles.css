@@ -1,0 +1,87 @@
+html, body {
+    width: 100%;
+    padding: 0 !important;
+    margin: 0 !important;
+  font-family: "Poppins", sans-serif;
+}
+
+.header-links {
+  list-style-type: none;
+}
+.header-li {
+  padding: 2%;
+}
+.header-links li a {
+  text-decoration: none !important;
+  color: #fff;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+}
+h1 {
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row-reverse;
+  position: relative;
+  top: 10px;
+}
+
+nav {
+  background: #642a84;
+}
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+main article {
+  padding: 5%;
+  width: 100%;
+}
+
+main aside {
+  max-width: 33%;
+  padding-right: 5%;
+  width: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+/* article {
+    width: 100%;
+    padding: 0 !important;
+    margin: 0 !important;
+} */
+footer {
+    background-color: black;
+    color: white;
+    height: 100%;
+    max-height: 60px;
+    text-align: center;
+}
+
+footer h3 {
+    position: relative;
+    top: 39px;
+    font-size: 0.75em;
+}
+
+@media screen and (max-width: 650px) {
+  main {
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+}
