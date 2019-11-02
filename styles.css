@@ -30,6 +30,7 @@ h1 {
   flex-direction: row-reverse;
   position: relative;
   top: 10px;
+  font-size: 25px;
 }
 
 nav {
