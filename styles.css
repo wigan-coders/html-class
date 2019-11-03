@@ -1,8 +1,4 @@
-html, body, header, nav, h1, h2, h3, h4, ul, li, main, article, p, figure, img, figcaption, aside, div, form, label, input, button, footer, span {
-	padding: 0;
-	margin: 0;
-	border: 0;
-}
+
 
 html, body {
   width: 100%;
@@ -42,7 +38,7 @@ h2 {
 }
 
 p {
-  font-size: 0.75em;
+  font-size: 1em;
 }
 
 nav {
