@@ -37,23 +37,30 @@ h2 {
   font-weight: bold;
 }
 
+p {
+  font-size: 0.75em;
+}
+
 nav {
   background: #642a84;
 }
+
 main {
   display: flex;
   flex-direction: row;
 }
 
 main article {
-  padding: 5%;
+  padding: 0 5% 5% 5%;
   width: 100%;
 }
 
 main aside {
-  max-width: 33%;
+  max-width: 25%;
   padding-right: 5%;
   width: 100%;
+  font-size: 0.75em;
+  margin-top: 60px;
 }
 
 img {
