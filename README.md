@@ -4,3 +4,4 @@
 
 ```
 example html page for Wigan Coders html class
+```
