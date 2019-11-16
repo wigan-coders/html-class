@@ -5,11 +5,13 @@ html, body {
 
 .header-links {
   list-style-type: none;
+  padding: 10px;
 }
 
 .header-links li a {
   text-decoration: none !important;
   color: #fff;
+  padding: 5px;
 }
 
 nav ul {
